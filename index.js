@@ -6,7 +6,7 @@
  *
  * Pro (8 more frameworks: Porter's Five Forces, PESTLE, Ansoff, Jobs-to-be-Done,
  * TAM/SAM/SOM, OKR, brainstorm_session, roadmap_plan) is available at:
- *   https://gumroad.com/YOURHANDLE (StrategyBrain Pro)
+ *   https://ritterbeck.gumroad.com (StrategyBrain Pro)
  * The Pro pack is proprietary and not part of this repository.
  */
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";

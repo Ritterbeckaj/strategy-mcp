@@ -3,7 +3,7 @@
 Deterministic strategic-planning frameworks as a local, free, open-source MCP server.
 No API keys. Works offline. Runs wherever Node 18+ runs.
 
-**4 free core tools in this repo. 8 more in [StrategyBrain Pro →](https://gumroad.com/YOURHANDLE).**
+**4 free core tools in this repo. 8 more in [StrategyBrain Pro →](https://ritterbeck.gumroad.com).**
 
 ## What you get free (MIT)
 
@@ -18,7 +18,7 @@ No API keys. Works offline. Runs wherever Node 18+ runs.
 
 Porter's Five Forces · PESTLE · Ansoff Matrix · Jobs-to-be-Done · TAM/SAM/SOM ·
 OKR planning · Brainstorm sessions · Roadmap planning — plus a full prompt playbook
-and update commits. **[Get StrategyBrain Pro](https://gumroad.com/YOURHANDLE)**
+and update commits. **[Get StrategyBrain Pro](https://ritterbeck.gumroad.com)**
 
 ## Install (2 minutes)
 
