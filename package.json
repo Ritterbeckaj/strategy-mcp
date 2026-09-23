@@ -1,0 +1,15 @@
+{
+  "name": "strategy-mcp",
+  "version": "0.1.0",
+  "description": "Open-core Strategy MCP — deterministic strategic frameworks (SWOT, 4Ps, Lean Canvas, Decision Matrix) as a local MCP server. Pro unlocks 8 more frameworks.",
+  "type": "module",
+  "main": "index.js",
+  "bin": { "strategy-mcp": "index.js" },
+  "files": ["index.js", "README.md", "LICENSE"],
+  "license": "MIT",
+  "keywords": ["mcp", "model-context-protocol", "strategy", "swot", "opencode", "business"],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.24.0"
+  }
+}
