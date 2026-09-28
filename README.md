@@ -14,7 +14,7 @@ No API keys. Works offline. Runs wherever Node 18+ runs.
 | `lean_canvas` | One-page business model canvas (problem → unfair advantage) |
 | `decision_matrix` | Score options against weighted criteria → ranked decision |
 
-## What Pro adds (8 frameworks, $29)
+## What Pro adds (8 frameworks, $19)
 
 Porter's Five Forces · PESTLE · Ansoff Matrix · Jobs-to-be-Done · TAM/SAM/SOM ·
 OKR planning · Brainstorm sessions · Roadmap planning — plus a full prompt playbook
