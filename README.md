@@ -1,5 +1,14 @@
 # Strategy MCP
 
+[![npm version](https://img.shields.io/npm/v/strategy-mcp.svg)](https://www.npmjs.com/package/strategy-mcp)
+[![npm downloads](https://img.shields.io/npm/dm/strategy-mcp.svg)](https://www.npmjs.com/package/strategy-mcp)
+[![license](https://img.shields.io/npm/l/strategy-mcp.svg)](https://github.com/Ritterbeckaj/strategy-mcp/blob/main/LICENSE)
+[![node](https://img.shields.io/node/v/strategy-mcp.svg)](https://www.npmjs.com/package/strategy-mcp)
+
+```bash
+npx -y strategy-mcp
+```
+
 Deterministic strategic-planning frameworks as a local MCP server. Runs anywhere
 Node 18+ runs, makes **zero network calls**, and needs **no API keys**.
 
@@ -24,15 +33,27 @@ call, no drift between runs, nothing sent anywhere.
 
 ## Install
 
-**Requirements:** Node 18 or newer.
+**Requirements:** Node 18 or newer. Nothing to clone, no absolute paths.
+
+The server is on npm, so `npx` fetches and runs it:
+
+```bash
+npx -y strategy-mcp
+```
+
+That speaks MCP over stdio and waits for a client. Or install it once, globally:
+
+```bash
+npm install -g strategy-mcp
+strategy-mcp
+```
+
+Prefer the source? Same four tools:
 
 ```bash
 git clone https://github.com/Ritterbeckaj/strategy-mcp.git
-cd strategy-mcp
-npm install
+cd strategy-mcp && npm install
 ```
-
-Note the **absolute path** to `index.js` — every client below needs it.
 
 ### OpenCode
 
@@ -44,17 +65,19 @@ Note the **absolute path** to `index.js` — every client below needs it.
     "servers": {
       "strategy": {
         "type": "local",
-        "command": ["node", "/absolute/path/to/strategy-mcp/index.js"]
+        "command": ["npx", "-y", "strategy-mcp@latest"]
       }
     }
   }
 }
 ```
 
+Installed globally instead? `"command": ["strategy-mcp"]`.
+
 ### Claude Code
 
 ```bash
-claude mcp add strategy -- node /absolute/path/to/strategy-mcp/index.js
+claude mcp add strategy -- npx -y strategy-mcp@latest
 ```
 
 ### Claude Desktop / Cursor
@@ -67,12 +90,15 @@ Cursor — `~/.cursor/mcp.json`. Same shape:
 {
   "mcpServers": {
     "strategy": {
-      "command": "node",
-      "args": ["/absolute/path/to/strategy-mcp/index.js"]
+      "command": "npx",
+      "args": ["-y", "strategy-mcp@latest"]
     }
   }
 }
 ```
+
+Building from a local clone instead? Point `command` at `node` and `args` at the
+absolute path of `index.js`.
 
 Restart the client. The four tools appear as `swot_analysis`, `marketing_mix`,
 `lean_canvas`, `decision_matrix`.
@@ -146,7 +172,8 @@ If they don't, you've lost nothing but a `npm install`.
 ## Publishing your own
 
 MIT — fork it, rename it in `package.json` and in the `McpServer` constructor,
-`npm publish`. The name `strategy-mcp` is unclaimed on npm as of this commit.
+`npm publish`. If you fork, pick your own package name: `strategy-mcp` is taken
+(as of v0.2.0, by this project).
 
 ## License
 
