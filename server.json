@@ -3,7 +3,7 @@
   "name": "io.github.ritterbeckaj/strategy-mcp",
   "title": "Strategy MCP",
   "description": "Deterministic strategy frameworks as MCP tools. Same input, same output, no model call.",
-  "version": "0.2.4",
+  "version": "0.2.3",
   "websiteUrl": "https://ritterbeckaj.github.io/mcp-packs/",
   "repository": {
     "url": "https://github.com/Ritterbeckaj/strategy-mcp",
@@ -15,7 +15,7 @@
       "registryType": "npm",
       "registryBaseUrl": "https://registry.npmjs.org",
       "identifier": "strategy-mcp",
-      "version": "0.2.4",
+      "version": "0.2.3",
       "runtimeHint": "npx",
       "transport": {
         "type": "stdio"
