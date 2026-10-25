@@ -148,6 +148,8 @@ to Wikipedia + Semantic Scholar. When a network call fails, the tool returns
 
 ## The other packs
 
+One page with everything: **<https://ritterbeckaj.github.io/mcp-packs/>**
+
 Same design as what you just installed — no model calls, no keys, deterministic
 output. Each is a drop-in MCP server.
 
