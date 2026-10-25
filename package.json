@@ -16,7 +16,7 @@
   "author": "Ritterbeckaj",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Ritterbeckaj/strategy-mcp.git"
+    "url": "git+https://github.com/Ritterbeckaj/strategy-mcp.git"
   },
   "homepage": "https://ritterbeckaj.github.io/mcp-packs/",
   "bugs": {
