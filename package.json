@@ -1,6 +1,6 @@
 {
   "name": "strategy-mcp",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Deterministic strategic-planning frameworks (SWOT, 4Ps, Lean Canvas, decision matrix) as a local MCP server. No API keys, no network calls. Pro unlocks 8 more frameworks.",
   "type": "module",
   "main": "index.js",

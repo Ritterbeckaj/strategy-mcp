@@ -146,21 +146,23 @@ written. `GOOGLE_FACTCHECK_API_KEY` is optional; without it the server degrades
 to Wikipedia + Semantic Scholar. When a network call fails, the tool returns
 `UNVERIFIED` rather than inventing a result.
 
-## StrategyBrain Pro
+## The other packs
 
-The other eight frameworks, same offline/no-key design:
+Same design as what you just installed — no model calls, no keys, deterministic
+output. Each is a drop-in MCP server.
 
-`porter_five_forces` · `pestle_analysis` · `ansoff_matrix` · `jobs_to_be_done` ·
-`tam_sam_som` · `okr_plan` · `roadmap_plan` · `brainstorm_session`
+| Pack | Tools | Price |
+|---|---|---|
+| [**StrategyBrain Pro**](https://ritterbeck.gumroad.com/l/strategybrain-pro) — Porter's Five Forces, PESTLE, Ansoff, Jobs-to-be-Done, TAM/SAM/SOM, OKRs, roadmap, brainstorm | 8 | $12 |
+| [**FactCheck MCP**](https://ritterbeck.gumroad.com/l/factcheck-mcp) — claim verification, source fetching, citation checks, anti-hallucination protocol | 6 | $12 |
+| [**LeadGen MCP**](https://ritterbeck.gumroad.com/l/leadgen-mcp) — find leads, extract from a page, qualify, save, draft outreach | 6 | $12 |
+| [**Monetize MCP**](https://ritterbeck.gumroad.com/l/monetize-mcp) — pricing, packaging, offer ladders | 8 | $0+ |
 
-**[$12 — StrategyBrain Pro](https://ritterbeck.gumroad.com/l/strategybrain-pro)** ·
-**[$29 with a 30-minute setup call](https://ritterbeck.gumroad.com/l/strategybrain-pro)**
-· 30-day refund if it isn't useful.
+Each pack is $29 with a 30-minute setup call, and there's a 30-day refund if it
+isn't useful. Start with **[Monetize MCP at $0+](https://ritterbeck.gumroad.com/l/monetize-mcp)**
+if you want to test the install before paying for anything.
 
-Free entry point: **[Monetize MCP — 8 tools, $0+](https://ritterbeck.gumroad.com/l/monetize-mcp)**.
-Test the install before paying for anything.
-
-Full set — all four packs, 33 tools:
+All four packs together — 32 tools:
 **[The MCP Toolkit](https://ritterbeck.gumroad.com/mcp-bundle)** ($29, or $79 with setup).
 
 ## Why open-core
