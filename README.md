@@ -89,7 +89,7 @@ Streamable HTTP. Useful when you can't install anything locally:
 | Server | Endpoint | Tools |
 |---|---|---|
 | StrategyBrain | `https://strategybrain-mcp.factcheck-mcp-worker.workers.dev/mcp` | 12 |
-| FactCheck | `https://factcheck-mcp.factcheck-mcp-worker.workers.dev/mcp` | 7 |
+| FactCheck | `https://factcheck-mcp.factcheck-mcp-worker.workers.dev/mcp` | 7 (6 + `get_usage`) |
 | LeadGen | `https://leadgen-mcp.factcheck-mcp-worker.workers.dev/mcp` | 6 |
 
 Header on every request:
@@ -109,15 +109,16 @@ instead:
 
 | Pack | Tools | Network |
 |---|---|---|
-| StrategyBrain (this repo's free 4 + Pro's 8) | 12 | **none** |
+| StrategyBrain (free 4 here + Pro's 8) | 12 | **none** |
 | Monetize MCP | 8 | **none** |
-| FactCheck MCP | 7 | Wikipedia, Semantic Scholar, optional Google Fact Check |
-| LeadGen MCP | 6 | DuckDuckGo |
+| FactCheck MCP | 6 | 4 tools → Wikipedia, Semantic Scholar, optional Google Fact Check. `cross_verify` and `anti_hallucination_protocol` are local. |
+| LeadGen MCP | 6 | 2 tools → DuckDuckGo, plus the page you point it at. `qualify_lead`, `save_lead`, `list_leads`, `draft_outreach` are local. |
 
-20 of 33 tools are air-gapped. The other 13 call free, keyless, read-only public
-endpoints. `GOOGLE_FACTCHECK_API_KEY` is optional — the server degrades to
-Wikipedia + Semantic Scholar without it. When a network call fails, the tool
-returns `UNVERIFIED` rather than inventing a result.
+**26 of the 32 tools on sale make zero network calls.** Six do, and they call
+free, keyless, read-only public endpoints — no account, no billing, nothing
+written. `GOOGLE_FACTCHECK_API_KEY` is optional; without it the server degrades
+to Wikipedia + Semantic Scholar. When a network call fails, the tool returns
+`UNVERIFIED` rather than inventing a result.
 
 ## StrategyBrain Pro
 
