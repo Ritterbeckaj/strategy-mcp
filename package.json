@@ -1,13 +1,38 @@
 {
   "name": "strategy-mcp",
-  "version": "0.1.0",
-  "description": "Open-core Strategy MCP — deterministic strategic frameworks (SWOT, 4Ps, Lean Canvas, Decision Matrix) as a local MCP server. Pro unlocks 8 more frameworks.",
+  "version": "0.2.0",
+  "description": "Deterministic strategic-planning frameworks (SWOT, 4Ps, Lean Canvas, decision matrix) as a local MCP server. No API keys, no network calls. Pro unlocks 8 more frameworks.",
   "type": "module",
   "main": "index.js",
   "bin": { "strategy-mcp": "index.js" },
   "files": ["index.js", "README.md", "LICENSE"],
   "license": "MIT",
-  "keywords": ["mcp", "model-context-protocol", "strategy", "swot", "opencode", "business"],
+  "author": "Ritterbeckaj",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ritterbeckaj/strategy-mcp.git"
+  },
+  "homepage": "https://ritterbeck.gumroad.com/l/strategybrain-pro",
+  "bugs": {
+    "url": "https://github.com/Ritterbeckaj/strategy-mcp/issues"
+  },
+  "engines": { "node": ">=18" },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mcp-server",
+    "claude",
+    "claude-desktop",
+    "cursor",
+    "opencode",
+    "strategy",
+    "swot",
+    "lean-canvas",
+    "okr",
+    "business-planning",
+    "offline",
+    "no-api-key"
+  ],
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.12.0",
     "zod": "^3.24.0"
