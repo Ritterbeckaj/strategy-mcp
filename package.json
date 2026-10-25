@@ -1,6 +1,6 @@
 {
   "name": "strategy-mcp",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Deterministic strategic-planning frameworks (SWOT, 4Ps, Lean Canvas, decision matrix) as a local MCP server. No API keys, no network calls. Pro unlocks 8 more frameworks.",
   "type": "module",
   "main": "index.js",
@@ -16,9 +16,9 @@
   "author": "Ritterbeckaj",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ritterbeckaj/strategy-mcp.git"
+    "url": "https://github.com/Ritterbeckaj/strategy-mcp.git"
   },
-  "homepage": "https://ritterbeck.gumroad.com/l/strategybrain-pro",
+  "homepage": "https://ritterbeckaj.github.io/mcp-packs/",
   "bugs": {
     "url": "https://github.com/Ritterbeckaj/strategy-mcp/issues"
   },
